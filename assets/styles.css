@@ -28,7 +28,7 @@ button,input,textarea{font:inherit}
 .menu-btn{display:none;border:0;background:transparent;color:inherit;font-size:13px;letter-spacing:.12em;padding:12px 0}
 
 .hero{position:relative;height:100svh;min-height:680px;background:#111;overflow:hidden;color:#fff}
-.hero-media{position:absolute;inset:0;background:url('../images/hero-feiyan.jpg') center/cover no-repeat;transform:scale(1.01)}
+.hero-media{position:absolute;inset:0;background:url('hero-feiyan.jpg') center/cover no-repeat;transform:scale(1.01)}
 .hero-media:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.48),rgba(0,0,0,.08) 52%,rgba(0,0,0,.18))}
 .hero-copy{position:absolute;left:var(--pad);right:var(--pad);bottom:16vh;z-index:2;max-width:1000px}
 .kicker{font-size:12px;letter-spacing:.28em;text-transform:uppercase;margin-bottom:18px;opacity:.76}
@@ -91,7 +91,7 @@ button,input,textarea{font:inherit}
 .page-hero .page-title{max-width:980px}.page-hero .lead{margin-top:32px;max-width:750px}
 .page-hero .slash{height:1px;background:#111;transform:rotate(-4deg);transform-origin:left center;width:clamp(160px,28vw,420px);margin-top:70px}
 
-.about-photo{height:min(66vw,760px);background:url('../images/about-map.jpg') center/cover no-repeat;margin:0 var(--pad)}
+.about-photo{height:min(66vw,760px);background:url('about-map.jpg') center/cover no-repeat;margin:0 var(--pad)}
 .about-block{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
 .qual-list{display:grid;grid-template-columns:repeat(2,1fr);gap:0 42px;border-top:1px solid var(--line)}
 .qual{padding:20px 0;border-bottom:1px solid var(--line);font-size:14px}
