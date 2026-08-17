@@ -1,47 +1,20 @@
 window.LDG_PROJECTS = {
-  feiyan: {
-    title:'飞雁台', category:'城市地标', location:'北京 · 南苑森林湿地公园', image:'assets/hero-feiyan.jpg',
-    summary:'北京南苑森林湿地公园飞雁台，资料中列为“城市地标”代表项目。',
-    data:[['项目','北京南苑森林湿地公园飞雁台'],['类别','城市地标']], awards:[]
-  },
-  asianGames: {
-    title:'杭州亚运村城市设计', category:'城市片区更新', location:'杭州 · 浙江', image:'assets/project-asian-games.jpg',
-    summary:'2022年杭州亚运村城市设计。资料显示该项目获得国际竞赛第一名，并获2019年度北京市优秀城乡规划三等奖。',
-    data:[['项目位置','杭州，浙江'],['用地面积','1,500,000 ㎡'],['建筑面积','1,475,700 ㎡'],['设计时间','2017']],
-    awards:['国际竞赛第一名','2019年度北京市优秀城乡规划三等奖']
-  },
-  oceanUniversity: {
-    title:'深圳海洋大学', category:'教育园区', location:'深圳 · 广东', image:'assets/project-ocean-university.jpg',
-    summary:'深圳海洋大学项目，资料列示为2023年国际竞赛第一名。',
-    data:[['项目位置','深圳，广东'],['用地面积','401,214 ㎡'],['建筑面积','589,473.03 ㎡'],['容积率','1.56'],['设计时间','2023']],
-    awards:['2023年国际竞赛第一名']
-  },
-  pingyao: {
-    title:'平遥国际电影展电影宫', category:'园区更新', location:'平遥 · 山西', image:'assets/project-pingyao.jpg',
-    summary:'平遥国际电影展电影宫更新项目，位于平遥古城片区。',
-    data:[['项目位置','平遥，山西'],['建筑面积','21,000 ㎡'],['设计时间','2017'],['建成时间','2017']],
-    awards:['2020年联合国教科文组织亚太地区文化遗产保护奖优秀奖','2019年度香港建筑师学会两岸四地“卓越奖”','2018年度WA中国建筑城市贡献奖佳作奖']
-  },
-  qinquan: {
-    title:'大鱼——琴泉村广场更新', category:'村域更新', location:'琴泉村', image:'assets/project-qinquan.jpg',
-    summary:'“大鱼——琴泉村广场更新”是资料中“村域更新”章节的代表项目。',
-    data:[['项目','琴泉村广场更新'],['类别','村域更新']],
-    awards:['德国标志性设计奖－创新建筑奖 ICONIC AWARDS','ARCHITIZER A+AWARDS 提名奖','2020年WA社会公平奖入围奖']
-  },
-  voyah: {
-    title:'无界之境——中国新能源汽车旗舰体验中心', category:'在地更新', location:'海淀 · 北京', image:'assets/project-voyah.jpg',
-    summary:'中国新能源汽车旗舰体验中心项目，位于北京海淀。',
-    data:[['项目位置','海淀，北京'],['建筑面积','1,378.63 ㎡'],['设计时间','2022.6–2022.8'],['资料所示进度','在建']], awards:[]
-  },
-  courtyard: {
-    title:'拾叶斋——律师事务所设计', category:'在地更新', location:'东城 · 北京', image:'assets/project-courtyard.jpg',
-    summary:'北京老四合院改造为律师事务所办公场地，强调保留树木与院落空间关系。',
-    data:[['项目位置','东城，北京'],['建筑面积','156 ㎡'],['设计时间','2019'],['建成时间','2019']],
-    awards:['2022中国年轻事务所','2020中国室内设计大奖赛办公工程类优秀奖','2020亚太华人设计邀请赛（华腾奖）办公空间奖金奖']
-  },
-  chuanshan: {
-    title:'湖南船山学院', category:'全域协同', location:'湖南', image:'assets/project-chuanshan.jpg',
-    summary:'资料中“全域协同”代表项目，由多方协同完成。',
-    data:[['项目','湖南船山学院'],['协同单位','清华大学建筑设计研究院有限公司 / 立人建筑北京 / 立人建筑中南大区']], awards:[]
-  }
+  feiyan:{title:'飞雁台',category:'城市地标 / 更新',location:'北京 · 南苑森林湿地公园',image:'assets/hero-feiyan.jpg',summary:'北京南苑森林湿地公园飞雁台，以公共空间中的观景、停留与城市眺望为核心，形成公园与北京城市天际线之间的空间节点。',data:[['项目','北京南苑森林湿地公园飞雁台'],['类型','城市地标 / 公共空间']],awards:[],gallery:[]},
+  asianGames:{title:'杭州亚运村城市设计',category:'产业园区 / 城市设计',location:'杭州 · 浙江',image:'assets/project-asian-games.jpg',summary:'面向大型国际赛事与长期城市生活的复合片区设计，整合居住、公共空间与城市基础设施，建立连续开放空间和清晰的城市结构。',data:[['项目位置','杭州，浙江'],['用地面积','1,500,000 ㎡'],['建筑面积','1,475,700 ㎡'],['设计时间','2017']],awards:['全球方案竞赛第一名','2019年度北京市优秀城乡规划三等奖'],gallery:[]},
+  culturalIsland:{title:'浙江金华五百滩文化活力岛',category:'文化 / 教育',location:'金华 · 浙江',image:'assets/project-cultural-island.jpg',summary:'滨水文化公共空间以轻盈的大跨度建筑形态连接城市与水岸，形成具有识别度的公共文化节点。',data:[['项目','浙江金华五百滩文化活力岛'],['类型','文化建筑 / 滨水公共空间']],awards:[],gallery:[]},
+  oceanUniversity:{title:'深圳海洋大学',category:'文化 / 教育',location:'深圳 · 广东',image:'assets/project-ocean-university.jpg',summary:'依山临水的大学园区以开放空间系统连接教学、科研与校园生活，并以连续的公共轴线回应山海环境。',data:[['项目位置','深圳，广东'],['用地面积','401,214 ㎡'],['建筑面积','589,473.03 ㎡'],['容积率','1.56'],['设计时间','2023']],awards:['2023年国际竞赛第一名'],gallery:['assets/project-ocean-university-02.jpg']},
+  theatre:{title:'国家大剧院室内改造',category:'文化 / 教育',location:'北京',image:'assets/project-theatre.jpg',summary:'在既有大型文化建筑体系中完成室内空间优化与更新，通过材料、光环境和交通空间调整提升公共使用体验。',data:[['项目位置','北京'],['设计时间','2008']],awards:['国家大剧院特殊贡献奖'],gallery:['assets/project-theatre-02.jpg']},
+  tsinghuaSchool:{title:'清华附属中学郑州学校',category:'文化 / 教育',location:'郑州',image:'assets/project-tsinghua-school.jpg',summary:'以红砖建筑、连廊和院落组织校园公共空间与教学组团，形成连续而有层次的校园街区。',data:[['项目','清华附属中学郑州学校'],['类型','教育建筑']],awards:['德国标志性设计奖－创新建筑奖 ICONIC AWARDS'],gallery:['assets/project-tsinghua-school-02.jpg']},
+  pingyao:{title:'平遥国际电影展电影宫',category:'更新 / 在地',location:'平遥 · 山西',image:'assets/project-pingyao.jpg',summary:'在历史城镇语境中进行旧建筑与公共空间更新，使电影节的当代使用需求与既有城市肌理并置共存。',data:[['项目位置','平遥，山西'],['建筑面积','21,000 ㎡'],['设计时间','2017'],['建成时间','2017']],awards:['2020年联合国教科文组织亚太地区文化遗产保护奖优秀奖','2019年度香港建筑师学会两岸四地“卓越奖”','2018年度WA中国建筑城市贡献奖佳作奖'],gallery:['assets/project-pingyao-02.jpg']},
+  fertilizer:{title:'沁源国营化肥厂更新',category:'更新 / 在地',location:'沁源 · 山西',image:'assets/project-fertilizer-renewal.jpg',summary:'保留工业遗存并植入新的公共空间与活动功能，使原有工业构筑物成为城市更新中的空间记忆。',data:[['项目位置','沁源，山西'],['用地面积','2.8 公顷'],['设计时间','2019'],['建成时间','2019']],awards:['2019年度山西省优秀城市规划设计二等奖'],gallery:[]},
+  qingdaoTech:{title:'清华科技园科创慧谷（青岛）',category:'产业园区 / 城市设计',location:'青岛 · 山东',image:'assets/project-qingdao-tech.jpg',summary:'科技创新园区以多尺度办公研发组团、公共空间和塔楼构成复合型创新社区，形成清晰的步行与公共空间体系。',data:[['项目位置','青岛，山东'],['建筑面积','464,800 ㎡'],['设计时间','2018'],['建成时间','2021']],awards:[],gallery:[]},
+  voyah:{title:'无界之境——中国新能源汽车旗舰体验中心',category:'商业 / 办公',location:'北京 · 海淀',image:'assets/project-voyah.jpg',summary:'面向新能源汽车展示与体验的品牌空间，以连续界面、数字展示和开放式首层空间构成清晰的品牌体验。',data:[['项目位置','海淀，北京'],['建筑面积','1,378.63 ㎡'],['设计时间','2022.6–2022.8']],awards:[],gallery:[]},
+  timesMuseum:{title:'北京时代美术馆改造',category:'文化 / 教育',location:'北京 · 海淀',image:'assets/project-times-museum.jpg',summary:'小尺度美术馆更新以曲面发光界面与清晰的入口序列重组展览空间的识别、到达与停留体验。',data:[['项目位置','海淀，北京'],['建筑面积','109 ㎡'],['设计时间','2021.12–2022.2'],['建成时间','2022.5']],awards:[],gallery:[]},
+  scifi:{title:'中关村科幻产业创新中心',category:'商业 / 办公',location:'北京 · 石景山',image:'assets/project-scifi-center.jpg',summary:'既有建筑更新结合室内设计与工程实施，为科幻产业创新、展示与交流提供复合型空间载体。',data:[['项目位置','石景山，北京'],['用地面积','21,176.3 ㎡'],['设计时间','2021.10'],['建成时间','2022.10']],awards:[],gallery:[]},
+  courtyard:{title:'拾叶斋——律师事务所设计',category:'商业 / 办公',location:'北京 · 东城',image:'assets/project-courtyard.jpg',summary:'由北京老四合院改造而来的办公空间，通过透明界面、天光和原有树木重新组织办公动线与院落空间关系。',data:[['项目位置','东城，北京'],['建筑面积','156 ㎡'],['设计时间','2019'],['建成时间','2019']],awards:['2022 中国年轻事务所','2020 中国室内设计大奖赛办公工程类优秀奖','2020 亚太华人设计邀请赛（华腾奖）办公空间奖金奖'],gallery:['assets/project-courtyard-02.jpg']},
+  nantou:{title:'南头古城活化与利用',category:'更新 / 在地',location:'深圳 · 南山',image:'assets/project-nantou.jpg',summary:'在长期形成的旧城肌理中，以渐进式更新与功能植入处理街巷尺度、历史环境和当代使用之间的关系。',data:[['项目位置','南山区，深圳，广东'],['建筑面积','280,000 ㎡'],['设计时间','2019.10'],['项目业主','深圳万科']],awards:[],gallery:[]},
+  qinquan:{title:'大鱼——琴泉村广场更新',category:'乡村振兴 / 文旅康养',location:'琴泉村',image:'assets/project-qinquan.jpg',summary:'以公共广场更新为核心的乡村实践，通过鲜明的公共艺术与场所改造增强村庄公共生活的识别度与活力。',data:[['项目','琴泉村广场更新'],['类型','乡村公共空间更新']],awards:['德国标志性设计奖－创新建筑奖 ICONIC AWARDS','ARCHITIZER A+AWARDS 提名奖','2020年WA社会公平奖入围奖'],gallery:[]},
+  chuanshan:{title:'湖南船山学院',category:'文化 / 教育',location:'湖南',image:'assets/project-chuanshan.jpg',summary:'大型教育园区协同设计项目，以校园核心公共空间与多组团教学建筑共同形成整体空间秩序。',data:[['项目','湖南船山学院'],['协同单位','清华大学建筑设计研究院有限公司 / 立人建筑北京 / 立人建筑中南大区']],awards:[],gallery:[]},
+  hospital:{title:'长治市中医研究所附属医院',category:'公共 / 医疗',location:'长治 · 山西',image:'assets/project-hospital.jpg',summary:'医院建筑以清晰的中轴和院落空间组织医疗功能与公共到达空间，并通过多专业协同整合复杂工程系统。',data:[['项目','长治市中医研究所附属医院'],['协同单位','清华大学建筑设计研究院有限公司 / 立人建筑北京 / 立人建筑太原分公司 / 同人建筑']],awards:[],gallery:[]},
+  industrialPark:{title:'路宝新能源汽车产业园区',category:'产业园区 / 城市设计',location:'晋城 · 山西',image:'assets/project-industrial-park.jpg',summary:'新能源汽车产业园区以生产、研发、配套与公共空间构成完整产业体系，并以整体规划建立高效交通与景观结构。',data:[['项目','路宝新能源汽车产业园区'],['协同单位','立人建筑北京 / 立人建筑中原分公司']],awards:[],gallery:[]}
 };
